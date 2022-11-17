@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="form">
+        <form align="center">
+            <fieldset>
+                <h3><strong> Personal Details</strong></h3>
+
+                <label for="Name" name="fnam" id="fname"> <b>Name</b></label>
+                <input type="text" name="fname" id="fname" placeholder="Enter Your name" size="30">
+                <br><br>
+                <label for="password" name="pass" id="pass"><b>password</b></label>
+                <input type="password" name="pass" id="pass" placeholder="Enter Your password">
+                <br><br>
+                <label for="email" name="email" id="email"><b>E-mail id</b></label>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <label for="Gender"><b>Gender:-</b></label>
+                <input type="radio" name="gender" id="male">
+                <label for="male">male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label><br><br>
+
+                <label for="contact" name="contact" id="contact"><b>Contact</b></label>
+                <input type="tel" name="number" id="contact" placeholder="Enter your Contact No" maxlength="10"><br><br>
+
+                <h3><strong> Qualifications</strong></h3>
+                <label for="Degree"><b>Degree:-</b></label>
+                <select name="Degree" id="Degree">
+                    <option selected>--select group--</option>
+                    <option value="buisness">Buisness</option>
+                    <option value="computer and technology">computer and technology</option>
+                    <option value="psychology">psychology</option>
+                    <option value="nursing">nursing</option>
+                </select><br><br>
+
+                <lable for="Engineering"><b>Engineering</b></lable>
+                <select name="Engineering" id="Engineering">
+                    <option selected>--select group--</option>
+                    <option value="buisness">Buisness</option>
+                    <option value="computer and technology">computer and technology</option>
+                    <option value="psychology">psychology</option>
+                    <option value="nursing">nursing</option>
+                </select><br><br>
+
+                <label for="Hobbies" name="hobbies" id="hobbies"><b>Hobbies:-</b></label>
+                <input type="checkbox" name="hobbies" id="hobbies">
+                <label for="hobbies">Playing chess</label>
+                <input type="checkbox" name="hobbies" id="hobbies">
+                <label for="hobbies">Reading Books</label><br><br>
+
+                <h3>Address</h3>
+                <label for="Address" Name="address" Id="Address"></label>
+                <textarea cols="60" rows="6"></textarea><br><br>
+
+                <label for="file" name="File" id="file"><b>Attach Resume:-</b></label>
+                <input type="file" name="file" id="file"><br><br>
+
+                <label for="submit" value="Sumbit" name="submit" id="submit"></label>
+                <input type="submit" value="submit" id="submit">
+
+    </div>
+    </fieldset>
+
+    </form>
+
+</body>
+
+</html>

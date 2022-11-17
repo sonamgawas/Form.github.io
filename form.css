@@ -1,0 +1,41 @@
+form {
+    border: 7px; ;
+}
+h3 {
+    color: rgb(20, 19, 19);
+}
+div.form {
+
+    background: linear-gradient(45deg, rgb(230, 238, 246), rgb(175, 215, 233), rgb(243, 193, 243));
+  
+ 
+  height: 20cm;
+    padding: 10px 20px;
+    border-radius: 10px;
+    opacity: 7;
+}
+input {
+    padding: 1px;
+    margin: 3px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: 4px 4px 6px#171718, -4px -4px 6px #b8b9be;
+}
+textarea {
+    padding: 1px;
+    margin: 3px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px;
+    box-shadow: 4px 4px 6px#1b1b1c, -4px -4px 6px #b8b9be;
+}
+
+input#submit {
+    margin-top: 7px;
+    color: rgb(235, 235, 239);
+    font-weight: bold;
+    padding: 4px;
+    background-color: blue;
+    box-shadow: 4px 4px 6px#191a1b, -4px -4px 6px #b8b9be;
+}
